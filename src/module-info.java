@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author anamariabrb
- *
- */
-module CursJava {
-}
