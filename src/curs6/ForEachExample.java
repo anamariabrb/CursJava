@@ -12,6 +12,12 @@ public class ForEachExample {
 		
 	}
 	System.out.println ("---------");
+	
+	for (String element : orase) {
+		
+		System.out.println(element);
+	}
+	 
 	}
 
 }
