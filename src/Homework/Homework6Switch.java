@@ -30,24 +30,39 @@ public class Homework6Switch {
 	
 		System.out.println("Introdu luna efectuarii vanzarilor: ");
 		int lunaEfectuareVanzari = scan.nextInt();
-		switch (valoareVanzari) {
+		
+		switch (vechime) {
 	
 		case 3:
 			if (valoareVanzari <= 5000)
 				System.out.println("Primesti bonus de 600");
 
 			
-			else if (valoareVanzari <= 10000)
-				for(lunaEfectuareVanzari = 1; lunaEfectuareVanzari < 6; lunaEfectuareVanzari++);
-		
-		System.out.println("Primesti bonus de 800");
-		
+			else if (valoareVanzari <= 10000) {
+				
+				if(lunaEfectuareVanzari >= 1 && lunaEfectuareVanzari <= 6)
+					System.out.println("Primesti bonus de 800");
+			
+				
+				else if (lunaEfectuareVanzari >= 7 && lunaEfectuareVanzari <= 11)
+					System.out.println("Primesti bonus de 1000");
+			
+			
+				else if(lunaEfectuareVanzari == 12)
+				{
+					System.out.println("Primesti bonus de 900");
+					System.out.println("In decembrie se vand singure");
+				}
+			
+			
+			} 
+			
+			else if (valoareVanzari > 10000)
+				System.out.println("Primesti bonus de 1200");
 		}
-		
-
 	
 
-}
-
 	}
+
+}
 
