@@ -65,8 +65,7 @@ public class FindINdexOfElementInArray {
 			i++;
 		}while(i < numbers.length);
 		
-		
-		
-	}
+
+	}	
 
 }
