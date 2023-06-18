@@ -6,15 +6,9 @@ public class Shape {
 	String culoare = "culoare generica";
 	
 	public Shape(String nume, String culoare) {
-		
 		this.nume = nume;
 		this.culoare = culoare;
-		
-		
-		
 	}
-
-
-
+	
 
 }

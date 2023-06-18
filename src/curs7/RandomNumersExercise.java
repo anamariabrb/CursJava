@@ -59,7 +59,7 @@ public class RandomNumersExercise {
 		RandomNumersExercise obj =  new RandomNumersExercise();
 		obj.printArray(obj.generateNumbers());
 		
-		}
-	
+		
+	}
 
 }

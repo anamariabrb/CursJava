@@ -7,7 +7,7 @@ public class Account {
 	public void deposit(int amonut) {
 		
 		if(amonut <= 0) {
-			throw new InvalidAmnoutException(amonut + " is not valid!");
+		//	throw new InvalidAmnoutException(amonut + " is not valid!");
 		}
 		
 		balance = balance + amonut;
