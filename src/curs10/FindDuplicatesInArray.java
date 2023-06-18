@@ -11,7 +11,7 @@ public class FindDuplicatesInArray {
 					
 					if(myStringArray[i].equals(myStringArray[j]));
 					
-					System.out.println("Nume duplicat "+ myStringArray[i]);
+					System.out.println("Nume duplicat: "+ myStringArray[i]);
 				
 				}
 				
