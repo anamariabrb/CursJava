@@ -1,5 +1,9 @@
 package Homework;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 public class Homework10 {
 
 	public static void main(String[] args) {
@@ -9,6 +13,7 @@ public class Homework10 {
 		propozitii(text);
 		stergere(text,"a");
 		inlocuire(text,"o");
+		verificareProduse();
 		
 	}
 
@@ -80,10 +85,29 @@ public class Homework10 {
 	
 	
 	
+	// Exercitiul 3
+	public static void verificareProduse() {
+		
+		List<String> list =  new ArrayList<>(Arrays.asList("Product1", "Product2", "Product3", "Product4", "Product5"));
 	
+		List<String> list2 =  new ArrayList<>(Arrays.asList("Product1", "Product2", "Product6", "Product4", "Product8"));
 	
-	
-	
-
-
+		for (String elementLista : list) {
+			
+			boolean found = false;
+			
+			for (String elementLista2 : list2) {
+				
+				if (elementLista.equals(elementLista2)) {
+					found = true;
+				}
+			}
+			
+			if(found==true) {
+				System.out.println("Yes");
+			}
+			else 
+				System.out.println("No");		
+		}	
+	}
 }
